@@ -1,8 +1,9 @@
 <?php 
-
-
-
-
+/**
+ * 
+ * Created By Deepak Yadav.
+ * 
+ */
 function kill_screen($scree_id){
 	echo $scree_id."<br>";
 	$xa=shell_exec("screen -X -S '".$scree_id."' quit");
