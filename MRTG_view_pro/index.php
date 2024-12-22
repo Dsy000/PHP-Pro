@@ -32,7 +32,7 @@ foreach ($files as $file) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IP Grouped HTML Files</title>
+    <title>Network Device</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -81,7 +81,7 @@ foreach ($files as $file) {
 </head>
 <body>
 <header>
-    <h1>Grouped HTML Files</h1>
+    <h1>Network Device list</h1>
 </header>
 <main>
     <?php foreach ($ipGroups as $ipAddress => $files): ?>
